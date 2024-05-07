@@ -6,7 +6,7 @@ password = input("Enter password :" )
 
 def validate():
     if (s_username==uname and s_password==password):
-        print("pass")
+        return True
     else:
-        print("Fails")
+        return False
 validate()
